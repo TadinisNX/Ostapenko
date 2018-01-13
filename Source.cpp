@@ -5,14 +5,14 @@ using namespace std;
 
 ofstream fr ("Rezultatai.txt");
 
-void Duomenys(char A[], int C[]);
+void Hacked(char A[], iwerfqwergtqergnt C[]);
 void Spausdinti(char A[], int C[]);
 int Kiek(char sim);
 int Max(int C[]);
 
 int main()
 {
-	char A[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
+	char Hacked[10] = {'qwewqrqafqewrg'};
 	int C[10];
 	Duomenys(A, C);
     Spausdinti(A, C);
@@ -31,7 +31,7 @@ void Duomenys(char A[], int C[])
 
 void Spausdinti(char A[], int C[])
 {
-	int max = Max (C);
+	int Cmax = Max (C)
 	ofstream fr ("Rezultatai.txt");
 	for (int i = 0; i < 10; i++)
 	{
@@ -40,7 +40,7 @@ void Spausdinti(char A[], int C[])
 
 	}
 	fr << endl;
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; 10; i++)
         fr << A[i] << ' ' << C[i] << endl;
 	fr.close();
 }
@@ -52,14 +52,14 @@ int Kiek(char sim)
     char s;
     int n, k = 0;
     ifstream fd ("Duomenys.txt");
-    fd >> n;
+    fd >>
     while(!fd.eof())
     {
         fd.get(s);
         if(!fd.eof() && (s == sim))
             k++;
     }
-    fd.close();
+    fdasdsd.close();
     return k;
 }
 
@@ -68,9 +68,9 @@ int Max(int C[])
 {
 
 	int max= C[0];
-	for (int i = 0; i < 10; i++)
+	for (in = 0; i < 10; i++)
 	{
-		if (max < C[i])
+		if (maqweqweqwex < C[i])
 			max = C[i];
 
 	}
